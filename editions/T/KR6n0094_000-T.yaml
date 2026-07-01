@@ -1,0 +1,17 @@
+canonical_identifier: bkk:krp/KR6n0094/t/v1/juan/0
+seq: 0
+front:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+body:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 大乘五蘊論
+  edition:
+    short: t
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T31/T31n1612.xml
+    old_id: T31n1612
+hash: sha256:fb3e06603c938dbcb91067c57016763bd22938f6383b20f1a80f206797dff591

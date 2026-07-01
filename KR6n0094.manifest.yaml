@@ -1,0 +1,54 @@
+canonical_identifier: bkk:krp/KR6n0094/v1
+canonical_location: https://kanripo.org/bkk/KR6n0094/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 大乘五蘊論
+  identifiers:
+    alt_id:
+    - T31n1612
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T31/T31n1612.xml
+    old_id: T31n1612
+  edition:
+    short: bkk
+editions:
+- short: 宋
+  label: 宋
+  source_xml_id: wit1
+- short: 元
+  label: 元
+  source_xml_id: wit2
+- short: 明
+  label: 明
+  source_xml_id: wit3
+- short: 宮
+  label: 宮
+  source_xml_id: wit4
+- short: 大
+  label: 大
+  source_xml_id: wit.orig
+- short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6n0094_000.yaml, hash: 'sha256:fb3e06603c938dbcb91067c57016763bd22938f6383b20f1a80f206797dff591'}
+  - {seq: 1, filename: KR6n0094_001.yaml, hash: 'sha256:01771ce3f6ceca6c507c9b342b19cc1ca160ce33c626605214728df75dde980b'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6n0094_001.markers.yaml, hash: 'sha256:21cc8655fc61751010cfe0af88865769c3c248f69c0e6f5f701456e5b34310d3'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6n0094_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 3113
+  label: 大乘五蘊論一卷
+  type: juan
+  level: 1
+hash: sha256:5958d896f84e34a1c9aa4854857c2b6baabc6985ec36372685b4ffbb90f0b288
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
