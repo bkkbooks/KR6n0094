@@ -34,9 +34,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6n0094_000.yaml, hash: 'sha256:fb3e06603c938dbcb91067c57016763bd22938f6383b20f1a80f206797dff591'}
-  - {seq: 1, filename: KR6n0094_001.yaml, hash: 'sha256:01771ce3f6ceca6c507c9b342b19cc1ca160ce33c626605214728df75dde980b'}
+  - {seq: 1, filename: KR6n0094_001.yaml, hash: 'sha256:11c2e8bd0b84b969783b7a9af1689b604c5837ee29fbb8c46db9ccca621a427f'}
   markers:
-  - {seq: 1, role: markers, filename: assets/KR6n0094_001.markers.yaml, hash: 'sha256:21cc8655fc61751010cfe0af88865769c3c248f69c0e6f5f701456e5b34310d3'}
+  - {seq: 0, role: markers, filename: assets/KR6n0094_000.markers.yaml, hash: 'sha256:80ac45f406f9f88e86d79042f842eb6fbfd487cc4bc3f3a1ed34e2ca067177aa'}
+  - {seq: 1, role: markers, filename: assets/KR6n0094_001.markers.yaml, hash: 'sha256:e4c9422778b7a1c819b9339bb4d276d3bda839d0e9083950ce18c50d3d4035a0'}
 table_of_contents:
 - ref:
     seq: 1
@@ -48,7 +49,4 @@ table_of_contents:
   label: 大乘五蘊論一卷
   type: juan
   level: 1
-hash: sha256:5958d896f84e34a1c9aa4854857c2b6baabc6985ec36372685b4ffbb90f0b288
-mappings:
-- canonical_identifier: bkk:mapping/variant-fold-v1
-  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
+hash: sha256:468dccf16a5d031bd7a2c58c7cbe3471b181eccd6aa6b8cba5712bb5a7d601a2
