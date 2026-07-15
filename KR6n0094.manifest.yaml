@@ -2,7 +2,7 @@ canonical_identifier: bkk:krp/KR6n0094/v1
 canonical_location: https://kanripo.org/bkk/KR6n0094/v1
 canonical_set:
   identifier: bkk:charset/cjk-v1
-  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+  hash: sha256:37995e65f5e6cdc8cfbc980fea50ec86663e3e7de950809f7e37f003754b3227
 metadata:
   title: 大乘五蘊論
   identifiers:
@@ -34,10 +34,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6n0094_000.yaml, hash: 'sha256:fb3e06603c938dbcb91067c57016763bd22938f6383b20f1a80f206797dff591'}
-  - {seq: 1, filename: KR6n0094_001.yaml, hash: 'sha256:11c2e8bd0b84b969783b7a9af1689b604c5837ee29fbb8c46db9ccca621a427f'}
+  - {seq: 1, filename: KR6n0094_001.yaml, hash: 'sha256:acb6a9d57034f29b2f155232089caaa7bd2b98b7a958ebe8ab3b07a571d7321b'}
   markers:
   - {seq: 0, role: markers, filename: assets/KR6n0094_000.markers.yaml, hash: 'sha256:80ac45f406f9f88e86d79042f842eb6fbfd487cc4bc3f3a1ed34e2ca067177aa'}
-  - {seq: 1, role: markers, filename: assets/KR6n0094_001.markers.yaml, hash: 'sha256:e4c9422778b7a1c819b9339bb4d276d3bda839d0e9083950ce18c50d3d4035a0'}
+  - {seq: 1, role: markers, filename: assets/KR6n0094_001.markers.yaml, hash: 'sha256:69fa01e485a8699d6b2dd3763a98c23218744faf931be7df523f438543864f5d'}
 table_of_contents:
 - ref:
     seq: 1
@@ -49,4 +49,7 @@ table_of_contents:
   label: 大乘五蘊論一卷
   type: juan
   level: 1
-hash: sha256:468dccf16a5d031bd7a2c58c7cbe3471b181eccd6aa6b8cba5712bb5a7d601a2
+hash: sha256:424d42796033f4e0e04fe0d202cdf964770e4398c4a2c9510d91023eade6a89c
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:9bc9a4233a10ab6fe6494b31262c157187fd580f02a97cad91be81ccd48f7a20
